@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Environment — contains API keys, never commit
+.env
+
+# Generated run artifacts (evidence, screenshots, cache)
+artifacts/
+evidence/
+testscenarios/
+tests/evidence/screenshots/
+.playwright-mcp/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+# LLM providers
+groq
+openai
+ollama
+
+# Browser automation
+playwright
+
+# Data validation
+pydantic
+
+# Environment
+python-dotenv
+
+# GitHub integration
+PyGithub
+requests
