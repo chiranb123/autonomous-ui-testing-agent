@@ -1,8 +1,8 @@
 {
     "scenario_name": "Complete Product Purchase End to End",
     "status": "FAILED",
-    "screenshot_path": "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Complete Product Purchase End to End_20260605_225537.png",
-    "error_message": "'Thank you for your order!' not found. [SOFT]",
+    "screenshot_path": "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Complete Product Purchase End to End_20260608_140827.png",
+    "error_message": "Clickable element not found after 3 attempts: 'Checkout'",
     "verifications": [
         {
             "passed": true,
@@ -79,7 +79,7 @@
             "target": "Add to cart",
             "value": "",
             "status": "PASSED",
-            "message": "Clicked ref=e67 (Add to cart)",
+            "message": "Clicked ref=e115 (Add to cart)",
             "screenshot_path": null
         },
         {
@@ -95,7 +95,7 @@
             "target": "cart",
             "value": "",
             "status": "PASSED",
-            "message": "Clicked ref=e126 (cart)",
+            "message": "Clicked ref=e115 (cart)",
             "screenshot_path": null
         },
         {
@@ -110,8 +110,8 @@
             "action": "click",
             "target": "Checkout",
             "value": "",
-            "status": "PASSED",
-            "message": "Clicked ref=e79 (Checkout)",
+            "status": "FAILED",
+            "message": "Clickable element not found after 3 attempts: 'Checkout'",
             "screenshot_path": null
         },
         {
@@ -127,7 +127,7 @@
             "target": "First Name",
             "value": "Test",
             "status": "PASSED",
-            "message": "Typed 'Test' into ref=e91 (First Name)",
+            "message": "Typed 'Test' into ref=e38 (First Name)",
             "screenshot_path": null
         },
         {
@@ -135,23 +135,23 @@
             "target": "Last Name",
             "value": "User",
             "status": "PASSED",
-            "message": "Typed 'User' into ref=e39 (Last Name)",
+            "message": "Typed 'User' into ref=e38 (Last Name)",
             "screenshot_path": null
         },
         {
             "action": "type",
             "target": "Postal Code",
             "value": "12345",
-            "status": "PASSED",
-            "message": "Typed '12345' into ref=e39 (Code)",
+            "status": "FAILED",
+            "message": "Element not found after 3 attempts: 'Postal Code'",
             "screenshot_path": null
         },
         {
             "action": "click",
             "target": "Continue",
             "value": "",
-            "status": "PASSED",
-            "message": "Clicked ref=e91 (Continue)",
+            "status": "FAILED",
+            "message": "Clickable element not found after 3 attempts: 'Continue'",
             "screenshot_path": null
         },
         {
@@ -166,8 +166,8 @@
             "action": "click",
             "target": "Finish",
             "value": "",
-            "status": "PASSED",
-            "message": "Clicked ref=e103 (Finish)",
+            "status": "FAILED",
+            "message": "Clickable element not found after 3 attempts: 'Finish'",
             "screenshot_path": null
         },
         {
@@ -187,5 +187,5 @@
             "screenshot_path": null
         }
     ],
-    "duration_seconds": 223.12
+    "duration_seconds": 235.68
 }

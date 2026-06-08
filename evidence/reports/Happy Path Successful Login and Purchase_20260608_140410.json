@@ -1,7 +1,7 @@
 {
-    "scenario_name": "Empty Mandatory Fields Validation Message Displayed",
+    "scenario_name": "Happy Path Successful Login and Purchase",
     "status": "PASSED",
-    "screenshot_path": "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Empty Mandatory Fields Validation Message Displayed_20260605_225154.png",
+    "screenshot_path": "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Happy Path Successful Login and Purchase_20260608_140410.png",
     "error_message": null,
     "verifications": [],
     "step_results": [
@@ -23,18 +23,26 @@
         },
         {
             "action": "type",
-            "target": "empty fields",
-            "value": "",
+            "target": "username field",
+            "value": "standard_user",
             "status": "PASSED",
-            "message": "Typed '' into ref=e11 (empty fields)",
+            "message": "Typed 'standard_user' into ref=e11 (username field)",
+            "screenshot_path": null
+        },
+        {
+            "action": "type",
+            "target": "password field",
+            "value": "secret_sauce",
+            "status": "PASSED",
+            "message": "Typed 'secret_sauce' into ref=e13 (password field)",
             "screenshot_path": null
         },
         {
             "action": "click",
-            "target": "submit button",
+            "target": "Login button",
             "value": "",
             "status": "PASSED",
-            "message": "Clicked ref=e15 (submit button)",
+            "message": "Clicked ref=e15 (Login button)",
             "screenshot_path": null
         },
         {
@@ -54,5 +62,5 @@
             "screenshot_path": null
         }
     ],
-    "duration_seconds": 7.46
+    "duration_seconds": 24.82
 }
