@@ -1,0 +1,5 @@
+{
+  "number": 3,
+  "title": "Check out functionality",
+  "body": "User Story: Complete Checkout on SauceDemo\n\nAs a registered customer\nI want to add items to my cart and complete a purchase\nSo that I can successfully place an order\n\nAcceptance Criteria\n\n1. User can log in with valid credentials\n2. User can browse the product catalog and add items to the cart\n3. Cart icon reflects the correct item count\n4. User can proceed to checkout and fill in shipping details\n5. User can review the order summary before confirming\n6. User sees a confirmation screen after successful checkout"
+}

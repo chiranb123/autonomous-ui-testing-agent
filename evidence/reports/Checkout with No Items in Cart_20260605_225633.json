@@ -1,0 +1,73 @@
+{
+    "scenario_name": "Checkout with No Items in Cart",
+    "status": "FAILED",
+    "screenshot_path": "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Checkout with No Items in Cart_20260605_225633.png",
+    "error_message": "'an error message is displayed indicating no items in cart' not found. [SOFT]",
+    "verifications": [
+        {
+            "passed": false,
+            "expected": "an error message is displayed indicating no items in cart",
+            "actual": "Not Found",
+            "message": "Text not found"
+        }
+    ],
+    "step_results": [
+        {
+            "action": "navigate",
+            "target": "https://www.saucedemo.com/",
+            "value": "",
+            "status": "INFO",
+            "message": "Navigated to https://www.saucedemo.com/",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "2.0",
+            "status": "INFO",
+            "message": "Waited 2.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "type",
+            "target": "username field",
+            "value": "standard_user",
+            "status": "PASSED",
+            "message": "Typed 'standard_user' into ref=e11 (username field)",
+            "screenshot_path": null
+        },
+        {
+            "action": "type",
+            "target": "password field",
+            "value": "secret_sauce",
+            "status": "PASSED",
+            "message": "Typed 'secret_sauce' into ref=e13 (password field)",
+            "screenshot_path": null
+        },
+        {
+            "action": "click",
+            "target": "Login button",
+            "value": "",
+            "status": "PASSED",
+            "message": "Clicked ref=e15 (Login button)",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "2.0",
+            "status": "INFO",
+            "message": "Waited 2.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "verify",
+            "target": "error message",
+            "value": "an error message is displayed indicating no items in cart",
+            "status": "FAILED",
+            "message": "'an error message is displayed indicating no items in cart' not found. [SOFT]",
+            "screenshot_path": null
+        }
+    ],
+    "duration_seconds": 26.81
+}

@@ -1,0 +1,66 @@
+{
+    "scenario_name": "Happy Path Successful Login and Purchase",
+    "status": "PASSED",
+    "screenshot_path": "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Happy Path Successful Login and Purchase_20260605_225139.png",
+    "error_message": null,
+    "verifications": [],
+    "step_results": [
+        {
+            "action": "navigate",
+            "target": "https://www.saucedemo.com/",
+            "value": "",
+            "status": "INFO",
+            "message": "Navigated to https://www.saucedemo.com/",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "2.0",
+            "status": "INFO",
+            "message": "Waited 2.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "type",
+            "target": "username field",
+            "value": "standard_user",
+            "status": "PASSED",
+            "message": "Typed 'standard_user' into ref=e11 (username field)",
+            "screenshot_path": null
+        },
+        {
+            "action": "type",
+            "target": "password field",
+            "value": "secret_sauce",
+            "status": "PASSED",
+            "message": "Typed 'secret_sauce' into ref=e13 (password field)",
+            "screenshot_path": null
+        },
+        {
+            "action": "click",
+            "target": "Login button",
+            "value": "",
+            "status": "PASSED",
+            "message": "Clicked ref=e15 (Login button)",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "2.0",
+            "status": "INFO",
+            "message": "Waited 2.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "1.0",
+            "status": "INFO",
+            "message": "Waited 1.0s",
+            "screenshot_path": null
+        }
+    ],
+    "duration_seconds": 10.1
+}

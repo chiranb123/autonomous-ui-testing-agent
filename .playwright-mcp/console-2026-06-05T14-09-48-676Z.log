@@ -1,0 +1,4 @@
+[    6436ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://practicetestautomation.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    6441ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/lato/v25/S6uyw4BMUTPHjx4wXg.woff2 @ https://practicetestautomation.com/practice-test-login/:0
+[    6441ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/lato/v25/S6u9w4BMUTPHh50XSwiPGQ.woff2 @ https://practicetestautomation.com/practice-test-login/:0
+[    7214ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://practicetestautomation.com/practice-test-login/:0

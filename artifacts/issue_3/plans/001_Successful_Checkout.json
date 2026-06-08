@@ -1,0 +1,69 @@
+{
+  "scenario_name": "Successful Checkout",
+  "steps": [
+    {
+      "action": "navigate",
+      "target": "",
+      "value": "",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user is logged in with valid credentials"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user is logged in with valid credentials"
+    },
+    {
+      "action": "type",
+      "target": "shipping details",
+      "value": "__READ_FROM_PAGE__",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user fills in shipping details"
+    },
+    {
+      "action": "type",
+      "target": "order summary",
+      "value": "__READ_FROM_PAGE__",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user reviews the order summary"
+    },
+    {
+      "action": "click",
+      "target": "Checkout button",
+      "value": "",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user confirms checkout"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user confirms checkout"
+    },
+    {
+      "action": "verify",
+      "target": "Cart icon",
+      "value": "correct item count",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the Cart icon reflects the correct item count"
+    },
+    {
+      "action": "verify",
+      "target": "Checkout confirmation screen",
+      "value": "successful checkout",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user sees a confirmation screen after successful checkout"
+    }
+  ]
+}

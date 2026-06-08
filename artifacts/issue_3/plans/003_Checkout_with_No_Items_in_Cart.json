@@ -1,0 +1,61 @@
+{
+  "scenario_name": "Checkout with No Items in Cart",
+  "steps": [
+    {
+      "action": "navigate",
+      "target": "login page",
+      "value": "",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user is logged in with valid credentials"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user is logged in with valid credentials"
+    },
+    {
+      "action": "type",
+      "target": "username field",
+      "value": "__READ_FROM_PAGE__",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user proceeds to checkout"
+    },
+    {
+      "action": "type",
+      "target": "password field",
+      "value": "__READ_FROM_PAGE__",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user proceeds to checkout"
+    },
+    {
+      "action": "click",
+      "target": "Login button",
+      "value": "",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user proceeds to checkout"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user proceeds to checkout"
+    },
+    {
+      "action": "verify",
+      "target": "error message",
+      "value": "an error message is displayed indicating no items in cart",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "an error message is displayed indicating no items in cart"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+    "scenario_name": "Successful Checkout",
+    "status": "FAILED",
+    "screenshot_path": "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Successful Checkout_20260605_225600.png",
+    "error_message": "'correct item count' not found. | Page shows: '- text: error_user' [SOFT]",
+    "verifications": [
+        {
+            "passed": false,
+            "expected": "correct item count",
+            "actual": "Not Found",
+            "message": "Text not found"
+        },
+        {
+            "passed": false,
+            "expected": "successful checkout",
+            "actual": "Not Found",
+            "message": "Text not found"
+        }
+    ],
+    "step_results": [
+        {
+            "action": "navigate",
+            "target": "https://www.saucedemo.com/",
+            "value": "",
+            "status": "INFO",
+            "message": "Navigated to https://www.saucedemo.com/",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "2.0",
+            "status": "INFO",
+            "message": "Waited 2.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "type",
+            "target": "shipping details",
+            "value": "",
+            "status": "PASSED",
+            "message": "Typed '' into ref=e11 (shipping details)",
+            "screenshot_path": null
+        },
+        {
+            "action": "type",
+            "target": "order summary",
+            "value": "",
+            "status": "PASSED",
+            "message": "Typed '' into ref=e11 (order summary)",
+            "screenshot_path": null
+        },
+        {
+            "action": "click",
+            "target": "Checkout button",
+            "value": "",
+            "status": "PASSED",
+            "message": "Clicked ref=e15 (Checkout button)",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "2.0",
+            "status": "INFO",
+            "message": "Waited 2.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "verify",
+            "target": "Cart icon",
+            "value": "correct item count",
+            "status": "FAILED",
+            "message": "'correct item count' not found. | Page shows: '- text: error_user' [SOFT]",
+            "screenshot_path": null
+        },
+        {
+            "action": "verify",
+            "target": "Checkout confirmation screen",
+            "value": "successful checkout",
+            "status": "FAILED",
+            "message": "'successful checkout' not found. | Page shows: '- text: error_user' [SOFT]",
+            "screenshot_path": null
+        }
+    ],
+    "duration_seconds": 22.8
+}

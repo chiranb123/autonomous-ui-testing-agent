@@ -1,0 +1,61 @@
+{
+  "scenario_name": "Happy Path Successful Login and Purchase",
+  "steps": [
+    {
+      "action": "navigate",
+      "target": "login page",
+      "value": "",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user is on the login page"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user is on the login page"
+    },
+    {
+      "action": "type",
+      "target": "username field",
+      "value": "__READ_FROM_PAGE__",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user enters a valid username"
+    },
+    {
+      "action": "type",
+      "target": "password field",
+      "value": "__READ_FROM_PAGE__",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user enters a valid password"
+    },
+    {
+      "action": "click",
+      "target": "Login button",
+      "value": "",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user clicks the Login button"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user clicks the Login button"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "1",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the Products page is displayed"
+    }
+  ]
+}

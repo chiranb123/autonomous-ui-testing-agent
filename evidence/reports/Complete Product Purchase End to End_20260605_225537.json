@@ -1,0 +1,191 @@
+{
+    "scenario_name": "Complete Product Purchase End to End",
+    "status": "FAILED",
+    "screenshot_path": "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Complete Product Purchase End to End_20260605_225537.png",
+    "error_message": "'Thank you for your order!' not found. [SOFT]",
+    "verifications": [
+        {
+            "passed": true,
+            "expected": "Products",
+            "actual": "Products",
+            "message": "Text found"
+        },
+        {
+            "passed": false,
+            "expected": "Thank you for your order!",
+            "actual": "Not Found",
+            "message": "Text not found"
+        }
+    ],
+    "step_results": [
+        {
+            "action": "navigate",
+            "target": "https://www.saucedemo.com/",
+            "value": "",
+            "status": "INFO",
+            "message": "Navigated to https://www.saucedemo.com/",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "2.0",
+            "status": "INFO",
+            "message": "Waited 2.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "type",
+            "target": "username field",
+            "value": "standard_user",
+            "status": "PASSED",
+            "message": "Typed 'standard_user' into ref=e11 (username field)",
+            "screenshot_path": null
+        },
+        {
+            "action": "type",
+            "target": "password field",
+            "value": "secret_sauce",
+            "status": "PASSED",
+            "message": "Typed 'secret_sauce' into ref=e13 (password field)",
+            "screenshot_path": null
+        },
+        {
+            "action": "click",
+            "target": "Login button",
+            "value": "",
+            "status": "PASSED",
+            "message": "Clicked ref=e15 (Login button)",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "2.0",
+            "status": "INFO",
+            "message": "Waited 2.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "verify",
+            "target": "page heading",
+            "value": "Products",
+            "status": "PASSED",
+            "message": "Found 'Products' on page",
+            "screenshot_path": null
+        },
+        {
+            "action": "click",
+            "target": "Add to cart",
+            "value": "",
+            "status": "PASSED",
+            "message": "Clicked ref=e67 (Add to cart)",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "1.0",
+            "status": "INFO",
+            "message": "Waited 1.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "click",
+            "target": "cart",
+            "value": "",
+            "status": "PASSED",
+            "message": "Clicked ref=e126 (cart)",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "2.0",
+            "status": "INFO",
+            "message": "Waited 2.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "click",
+            "target": "Checkout",
+            "value": "",
+            "status": "PASSED",
+            "message": "Clicked ref=e79 (Checkout)",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "2.0",
+            "status": "INFO",
+            "message": "Waited 2.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "type",
+            "target": "First Name",
+            "value": "Test",
+            "status": "PASSED",
+            "message": "Typed 'Test' into ref=e91 (First Name)",
+            "screenshot_path": null
+        },
+        {
+            "action": "type",
+            "target": "Last Name",
+            "value": "User",
+            "status": "PASSED",
+            "message": "Typed 'User' into ref=e39 (Last Name)",
+            "screenshot_path": null
+        },
+        {
+            "action": "type",
+            "target": "Postal Code",
+            "value": "12345",
+            "status": "PASSED",
+            "message": "Typed '12345' into ref=e39 (Code)",
+            "screenshot_path": null
+        },
+        {
+            "action": "click",
+            "target": "Continue",
+            "value": "",
+            "status": "PASSED",
+            "message": "Clicked ref=e91 (Continue)",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "2.0",
+            "status": "INFO",
+            "message": "Waited 2.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "click",
+            "target": "Finish",
+            "value": "",
+            "status": "PASSED",
+            "message": "Clicked ref=e103 (Finish)",
+            "screenshot_path": null
+        },
+        {
+            "action": "wait",
+            "target": "",
+            "value": "3.0",
+            "status": "INFO",
+            "message": "Waited 3.0s",
+            "screenshot_path": null
+        },
+        {
+            "action": "verify",
+            "target": "confirmation heading",
+            "value": "Thank you for your order!",
+            "status": "FAILED",
+            "message": "'Thank you for your order!' not found. [SOFT]",
+            "screenshot_path": null
+        }
+    ],
+    "duration_seconds": 223.12
+}

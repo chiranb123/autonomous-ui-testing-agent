@@ -1,0 +1,131 @@
+{
+  "scenario_name": "Complete Product Purchase End to End",
+  "steps": [
+    {
+      "action": "navigate",
+      "target": "login page",
+      "value": "",
+      "original_step": "the user is on the login page"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "original_step": "page load"
+    },
+    {
+      "action": "type",
+      "target": "username field",
+      "value": "__READ_FROM_PAGE__",
+      "original_step": "the user enters a valid username"
+    },
+    {
+      "action": "type",
+      "target": "password field",
+      "value": "__READ_FROM_PAGE__",
+      "original_step": "the user enters a valid password"
+    },
+    {
+      "action": "click",
+      "target": "Login button",
+      "value": "",
+      "original_step": "the user clicks the Login button"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "original_step": "page load after login"
+    },
+    {
+      "action": "verify",
+      "target": "page heading",
+      "value": "Products",
+      "original_step": "the Products page is displayed"
+    },
+    {
+      "action": "click",
+      "target": "Add to cart",
+      "value": "",
+      "original_step": "click Add to cart for first product"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "1",
+      "original_step": "cart badge update"
+    },
+    {
+      "action": "click",
+      "target": "cart",
+      "value": "",
+      "original_step": "open the shopping cart"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "original_step": "cart page load"
+    },
+    {
+      "action": "click",
+      "target": "Checkout",
+      "value": "",
+      "original_step": "click the Checkout button"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "original_step": "checkout info page load"
+    },
+    {
+      "action": "type",
+      "target": "First Name",
+      "value": "Test",
+      "original_step": "enter First Name"
+    },
+    {
+      "action": "type",
+      "target": "Last Name",
+      "value": "User",
+      "original_step": "enter Last Name"
+    },
+    {
+      "action": "type",
+      "target": "Postal Code",
+      "value": "12345",
+      "original_step": "enter Postal Code"
+    },
+    {
+      "action": "click",
+      "target": "Continue",
+      "value": "",
+      "original_step": "click Continue"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "original_step": "checkout overview page load"
+    },
+    {
+      "action": "click",
+      "target": "Finish",
+      "value": "",
+      "original_step": "click Finish"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "3",
+      "original_step": "order confirmation page load"
+    },
+    {
+      "action": "verify",
+      "target": "confirmation heading",
+      "value": "Thank you for your order!",
+      "original_step": "order confirmation is displayed"
+    }
+  ]
+}

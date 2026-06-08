@@ -1,0 +1,6 @@
+[      92ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2 @ https://www.saucedemo.com/:0
+[      93ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBA.woff2 @ https://www.saucedemo.com/:0
+[      93ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbQ.woff2 @ https://www.saucedemo.com/:0
+[     107ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://www.saucedemo.com/:0
+[   10470ms] [ERROR] Access to fetch at 'https://submit.backtrace.io/UNIVERSE/TOKEN/json' from origin 'https://www.saucedemo.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://www.saucedemo.com/:0
+[   10471ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://submit.backtrace.io/UNIVERSE/TOKEN/json:0

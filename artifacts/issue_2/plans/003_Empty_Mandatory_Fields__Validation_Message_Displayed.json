@@ -1,0 +1,53 @@
+{
+  "scenario_name": "Empty Mandatory Fields Validation Message Displayed",
+  "steps": [
+    {
+      "action": "navigate",
+      "target": "checkout page",
+      "value": "",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user is on the checkout page"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user is on the checkout page"
+    },
+    {
+      "action": "type",
+      "target": "empty fields",
+      "value": "__READ_FROM_PAGE__",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user leaves all mandatory fields empty"
+    },
+    {
+      "action": "click",
+      "target": "submit button",
+      "value": "",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user leaves all mandatory fields empty"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "2",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "the user leaves all mandatory fields empty"
+    },
+    {
+      "action": "wait",
+      "target": "",
+      "value": "1",
+      "expected": null,
+      "verification_type": null,
+      "original_step": "a validation message is displayed"
+    }
+  ]
+}

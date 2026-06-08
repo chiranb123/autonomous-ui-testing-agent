@@ -1,0 +1,26 @@
+{
+  "scenarios": [
+    {
+      "title": "Successful Checkout",
+      "scenario_type": "positive",
+      "acceptance_criteria": [
+        "User sees a confirmation screen after successful checkout"
+      ],
+      "gherkin": "Scenario: Successful Checkout\n  Given the user is logged in with valid credentials\n  When the user proceeds to checkout\n  And the user fills in shipping details\n  And the user reviews the order summary\n  Then the user confirms checkout\n  Then the Cart icon reflects the correct item count\n  Then the user sees a confirmation screen after successful checkout"
+    },
+    {
+      "title": "Invalid Login Credentials",
+      "scenario_type": "negative",
+      "acceptance_criteria": [
+        "User can log in with valid credentials"
+      ],
+      "gherkin": "Scenario: Invalid Login Credentials\n  Given the user is logged in with invalid credentials\n  When the user attempts to log in\n  Then an error message is displayed indicating invalid credentials"
+    },
+    {
+      "title": "Checkout with No Items in Cart",
+      "scenario_type": "edge",
+      "acceptance_criteria": [],
+      "gherkin": "Scenario: Checkout with No Items in Cart\n  Given the user is logged in with valid credentials\n  When the user proceeds to checkout\n  Then an error message is displayed indicating no items in cart"
+    }
+  ]
+}

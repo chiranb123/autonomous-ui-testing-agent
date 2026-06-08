@@ -1,0 +1,68 @@
+[
+  {
+    "ac_id": "The Products page should be displayed",
+    "description": "The Products page should be displayed",
+    "status": "PASSED",
+    "related_scenarios": [
+      "Happy Path: Successful Login and Purchase"
+    ],
+    "evidence": [
+      "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Happy Path Successful Login and Purchase_20260605_225139.png"
+    ]
+  },
+  {
+    "ac_id": "The list of available products should be displayed",
+    "description": "The list of available products should be displayed",
+    "status": "PASSED",
+    "related_scenarios": [
+      "Happy Path: Successful Login and Purchase"
+    ],
+    "evidence": [
+      "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Happy Path Successful Login and Purchase_20260605_225139.png"
+    ]
+  },
+  {
+    "ac_id": "An error message should be displayed when invalid credentials are entered",
+    "description": "An error message should be displayed when invalid credentials are entered",
+    "status": "PASSED",
+    "related_scenarios": [
+      "Invalid Credentials: Error Message Displayed"
+    ],
+    "evidence": [
+      "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Invalid Credentials Error Message Displayed_20260605_225147.png"
+    ]
+  },
+  {
+    "ac_id": "A validation message should be displayed when any mandatory field is left empty",
+    "description": "A validation message should be displayed when any mandatory field is left empty",
+    "status": "PASSED",
+    "related_scenarios": [
+      "Empty Mandatory Fields: Validation Message Displayed"
+    ],
+    "evidence": [
+      "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Empty Mandatory Fields Validation Message Displayed_20260605_225154.png"
+    ]
+  },
+  {
+    "ac_id": "User can complete a full purchase from login to order confirmation",
+    "description": "User can complete a full purchase from login to order confirmation",
+    "status": "FAILED",
+    "related_scenarios": [
+      "Complete Product Purchase End to End"
+    ],
+    "evidence": [
+      "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Complete Product Purchase End to End_20260605_225537.png"
+    ]
+  },
+  {
+    "ac_id": "Order confirmation page is displayed with 'Thank you for your order!' message",
+    "description": "Order confirmation page is displayed with 'Thank you for your order!' message",
+    "status": "FAILED",
+    "related_scenarios": [
+      "Complete Product Purchase End to End"
+    ],
+    "evidence": [
+      "C:\\Users\\chpbo\\Documents\\Learning\\autonomous-ui-testing-agent\\tests\\evidence\\screenshots\\Complete Product Purchase End to End_20260605_225537.png"
+    ]
+  }
+]

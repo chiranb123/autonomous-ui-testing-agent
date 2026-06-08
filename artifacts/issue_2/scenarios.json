@@ -1,0 +1,38 @@
+{
+  "scenarios": [
+    {
+      "title": "Happy Path: Successful Login and Purchase",
+      "scenario_type": "positive",
+      "acceptance_criteria": [
+        "The Products page should be displayed",
+        "The list of available products should be displayed"
+      ],
+      "gherkin": "Scenario: Happy Path: Successful Login and Purchase\n  Given the user is on the login page\n  When the user enters a valid username\n  And the user enters a valid password\n  And the user clicks the Login button\n  Then the Products page is displayed\n  And the list of available products is displayed"
+    },
+    {
+      "title": "Invalid Credentials: Error Message Displayed",
+      "scenario_type": "negative",
+      "acceptance_criteria": [
+        "An error message should be displayed when invalid credentials are entered"
+      ],
+      "gherkin": "Scenario: Invalid Credentials: Error Message Displayed\n  Given the user is on the login page\n  When the user enters invalid credentials\n  Then an error message is displayed"
+    },
+    {
+      "title": "Empty Mandatory Fields: Validation Message Displayed",
+      "scenario_type": "negative",
+      "acceptance_criteria": [
+        "A validation message should be displayed when any mandatory field is left empty"
+      ],
+      "gherkin": "Scenario: Empty Mandatory Fields: Validation Message Displayed\n  Given the user is on the checkout page\n  When the user leaves all mandatory fields empty\n  Then a validation message is displayed"
+    },
+    {
+      "title": "Complete Product Purchase End to End",
+      "scenario_type": "positive",
+      "acceptance_criteria": [
+        "User can complete a full purchase from login to order confirmation",
+        "Order confirmation page is displayed with 'Thank you for your order!' message"
+      ],
+      "gherkin": "Scenario: Complete Product Purchase End to End\n  Given the user is on the login page\n  When the user enters a valid username\n  And the user enters a valid password\n  And the user clicks the Login button\n  Then the Products page is displayed\n  When the user clicks the Add to cart button\n  And the user clicks the shopping cart link\n  And the user clicks the Checkout button\n  And the user enters \"Test\" in the First Name field\n  And the user enters \"User\" in the Last Name field\n  And the user enters \"12345\" in the Postal Code field\n  And the user clicks the Continue button\n  And the user clicks the Finish button\n  Then \"Thank you for your order!\" is displayed"
+    }
+  ]
+}
