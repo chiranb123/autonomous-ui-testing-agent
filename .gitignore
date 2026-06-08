@@ -9,15 +9,6 @@ venv/
 # Environment — contains API keys, never commit
 .env
 
-# LLM cache (large, regenerated automatically)
-artifacts/
-
-# Generated feature files (regenerated on each run)
-testscenarios/
-
-# Screenshots — large binaries, already embedded in HTML report
-tests/evidence/screenshots/
-
 # Playwright MCP internal browser state logs
 .playwright-mcp/
 
